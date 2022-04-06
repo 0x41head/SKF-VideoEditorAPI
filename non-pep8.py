@@ -1,2 +1,1 @@
-for i in range(0,5):
-    print('abc')
+for i in range(0,5):print('abc')
