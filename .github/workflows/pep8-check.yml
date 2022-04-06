@@ -7,6 +7,7 @@ on:
   pull_request: {}
 
 jobs:
-  steps:
-    - name: Python Style Checker
-      uses: andymckay/pycodestyle-action@0.1.3
+  pep8-check:
+    steps:
+      - name: Python Style Checker
+        uses: andymckay/pycodestyle-action@0.1.3
