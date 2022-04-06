@@ -7,8 +7,8 @@ on:
   pull_request: {}
 
 jobs:
-  pep8-check:
+  PEP8_Check:
     runs-on: ubuntu-latest
     steps:
-      - name: Python Style Checker
+      - name: Pep8
         uses: andymckay/pycodestyle-action@0.1.3
